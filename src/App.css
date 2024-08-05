@@ -1,0 +1,44 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.event-details, .tickets, .organizer {
+  margin-top: 20px;
+}
+
+.countdown {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  margin-right: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
